@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Conditions and Loops</title>
+</head>
+<body>
+
+<h2>JavaScript Conditional & Looping Demo</h2>
+
+<p id="output"></p>
+
+<script>
+    let output = "";
+
+    /* ===== Conditional Statement ===== */
+    let num = 5;
+
+    if (num > 0) {
+        output += "Number is Positive<br>";
+    } else if (num < 0) {
+        output += "Number is Negative<br>";
+    } else {
+        output += "Number is Zero<br>";
+    }
+
+    /* ===== For Loop ===== */
+    output += "<br>For Loop Output:<br>";
+    for (let i = 1; i <= 5; i++) {
+        output += i + " ";
+    }
+
+    /* ===== While Loop ===== */
+    output += "<br><br>While Loop Output:<br>";
+    let j = 1;
+    while (j <= 5) {
+        output += j + " ";
+        j++;
+    }
+
+    /* ===== Do-While Loop ===== */
+    output += "<br><br>Do-While Loop Output:<br>";
+    let k = 1;
+    do {
+        output += k + " ";
+        k++;
+    } while (k <= 5);
+
+    document.getElementById("output").innerHTML = output;
+</script>
+
+</body>
+</html>
