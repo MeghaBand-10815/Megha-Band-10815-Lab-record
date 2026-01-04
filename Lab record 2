@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SECOND WEBPAGE</title>
+    </head>
+    <body>
+        <img src="C:\Users\megha\Pictures\Screenshots\Screenshot 2025-09-26 123845.png" alt="not found" height="200" width="600"><br></img>
+        <a href="C:\Users\megha\OneDrive\Documents\Megha Band B tech,CSE">click me<br></a>
+       <h2>Ordered List</h2>
+        <ol>
+            <li>Brush your teeth</li>
+            <li>Have breakfast</li>
+            <li>Go to College</li>
+        </ol>
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ul>
+        <h2>Nested List</h2>
+        <ul>
+            <li>Food</li>
+            <ul>
+                <li>Pizza</li>
+            <li>Burger</li>
+            </ul>
+            <li>Drinks</li>
+            <ul>
+                <li>Frooti</li>
+                <li>Maaza</li>
+            </ul>
+        </ul>
+         
+    </body>
+</html>
